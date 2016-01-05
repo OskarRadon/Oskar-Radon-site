@@ -1,0 +1,35 @@
+body {
+	font-size: 20px;
+}
+
+li {
+	list-style: none;
+}
+ h1 {
+	 text-align: center;
+ }
+/*
+#logo {
+	max-width: 200px;
+	margin: 0 auto;
+	background:  orange;
+}
+*/
+
+img {
+	max-width:  400px;
+}
+
+nav {
+	text-align:center;
+}
+
+#wrapper {
+	max-width: 940px;
+	padding: 0 5%;
+	margin: 0 auto;
+	}
+
+nav a.selected {
+	color: red;
+}
