@@ -8,16 +8,12 @@ li {
  h1 {
 	 text-align: center;
  }
-/*
-#logo {
+
+.logo {
+	display: block;
 	max-width: 200px;
 	margin: 0 auto;
-	background:  orange;
-}
-*/
-
-img {
-	max-width:  400px;
+	padding-top: 20px;
 }
 
 nav {
