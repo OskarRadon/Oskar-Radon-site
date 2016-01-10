@@ -1,6 +1,6 @@
 	/* HEADER */
 header img {
-	float: right;
+	position: fixed;
 	z-index: 2;
 }
 
@@ -16,7 +16,14 @@ header img {
 
 	/* BODY */
 
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+
 body img {
 	max-width: 200px;
 	margin: 30px;
 }
+
+/* FOOTER */
