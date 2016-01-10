@@ -1,15 +1,7 @@
-#wrapper {
-	max-width: 1000px;
-	}
-
 	/* HEADER */
-
-header {
-	z-index: 2;
-}
-
 header img {
 	float: right;
+	z-index: 2;
 }
 
 #question {
@@ -23,3 +15,8 @@ header img {
 }
 
 	/* BODY */
+
+body img {
+	max-width: 200px;
+	margin: 30px;
+}
