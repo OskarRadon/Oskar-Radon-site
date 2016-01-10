@@ -1,3 +1,25 @@
 #wrapper {
 	max-width: 1000px;
 	}
+
+	/* HEADER */
+
+header {
+	z-index: 2;
+}
+
+header img {
+	float: right;
+}
+
+#question {
+	max-width: 25px;
+	margin: 8px 6px;
+}
+
+#logo {
+	max-width: 200px;
+	margin: 70px;
+}
+
+	/* BODY */
