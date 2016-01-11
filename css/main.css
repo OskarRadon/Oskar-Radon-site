@@ -22,11 +22,15 @@ header img {
 }
 
 	/* BODY */
+h1 {
+	font-size: 16px;
+	font-weight: normal;
+}
 
 body {
 	width: 800px;
 	margin: 0 auto;
-	padding-top: 230px;
+	padding-top: 220px;
 }
 
 body img {
