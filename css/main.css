@@ -52,10 +52,22 @@ footer img {
 	max-width: 52px;
 }
 
-/* MEDIA QUERIES */
+	/*MEDIA QUERIES*/
 
-/*@media all and (max-width: 767px) {
-	body {
-		background-color: blue;
+@media all and (max-width: 500px) {
+	#logo {
+		margin: 0 auto;
 	}
-}*/
+
+	body {
+		width: 300px;
+		margin: 0 auto;
+	}
+
+	body img {
+		max-width: 100px;
+	}
+
+
+
+}
