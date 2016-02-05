@@ -13,14 +13,14 @@ header img {
 #question {
 	position: fixed;
 	max-width: 25px;
-	margin: 8px 0 0 726px;
+	margin: -215px 0 0 726px;
 	z-index: 50;
 }
 
 #logo {
 	position: fixed;
 	max-width: 200px;
-	margin: 70px 420px;
+	margin: -160px 420px;
 	z-index: 50;
 }
 
@@ -38,6 +38,7 @@ body {
 
 body img {
 	max-width: 200px;
+	max-height: 300px;
 	/*margin: 30px;*/
 }
 
