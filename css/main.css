@@ -1,5 +1,5 @@
 	/* HEADER */
-header {
+/*header {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -7,17 +7,21 @@ header {
 }
 
 header img {
-	z-index: 15;
-}
+	position: fixed;
+}*/
 
 #question {
+	position: fixed;
 	max-width: 25px;
 	margin: 8px 0 0 726px;
+	z-index: 50;
 }
 
 #logo {
+	position: fixed;
 	max-width: 200px;
 	margin: 70px 420px;
+	z-index: 50;
 }
 
 	/* BODY */
@@ -49,7 +53,7 @@ footer {
 footer img {
 	margin: 30px 0;
 	max-width: 52px;
-	z-index: 5;
+	z-index: 50;
 }
 
 	/*MEDIA QUERIES*/
