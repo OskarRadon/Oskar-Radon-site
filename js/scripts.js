@@ -4,10 +4,10 @@
 //
 // $(function(){
 //   $('img.post').each(function(){
-//     $(this).css({'margin' : getRandomInt(-150,50)});
+//     $(this).css({'margin' : getRandomInt(-50,50)});
 //   });
 // });
 
 $(function() {
-  $(".post").draggable({stack:".post"});
+  $(".post").draggable();
 });
