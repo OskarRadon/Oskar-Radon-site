@@ -9,5 +9,5 @@
 // });
 
 $(function() {
-  $(".post").draggable({stack: ".post"});
+  $(".post").draggable();
 });
