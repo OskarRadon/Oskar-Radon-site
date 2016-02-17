@@ -29,7 +29,8 @@ h1 {
 }
 
 p {
-	margin: .5rem 0;
+	/*margin: .5rem 0;*/
+	line-height: 1.5em;
 }
 
 a:visited{
@@ -92,17 +93,6 @@ footer {
 
 	/*MEDIA QUERIES*/
 
-@media all and (max-width: 500px) {
-	#logo {
-		margin: 0 auto;
-	}
+@media screen and (min-width: 800px) {
 
-	body {
-		width: 300px;
-		margin: 0 auto;
-	}
-
-	body img {
-		max-width: 100px;
-	}
 }
