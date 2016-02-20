@@ -7,15 +7,15 @@ header {
 }
 
 .question {
-  width: 25px;
   position: absolute;
+  width: 25px;
   top: 10px;
   right: 10px;
 }
 
 .logo {
-  width: 150px;
   position: absolute;
+  width: 150px;
   top: 70px;
   right: 50px;
 }
@@ -37,4 +37,20 @@ header {
 .post {
   width: 150px;
   margin-bottom: 50px;
+}
+
+/*FOOTER*/
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  z-index: 2;
+  width: 100%;
+}
+
+.hey {
+  position: absolute;
+  width: 60px;
+  bottom: 5px;
+  left: 5px;
 }
