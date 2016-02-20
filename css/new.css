@@ -1,9 +1,15 @@
 .container {
-  width: 100vw;
+  display: flex;
+  width: 60vw;
+  margin: auto;
+  padding: 20px;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .post {
-  margin: auto;
-  width: 60vw;
-  margin: 100px 20vw;
+  max-width: 200px;
+  flex-basis: 100px;
+  flex-grow: 2;
 }
