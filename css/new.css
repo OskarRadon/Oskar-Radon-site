@@ -1,15 +1,16 @@
+header, footer {
+  display: none;
+}
+
 .container {
   display: flex;
-  width: 60vw;
-  margin: auto;
+  width: 100vw;
   padding: 20px;
   align-content: flex-start;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .post {
-  max-width: 200px;
-  flex-basis: 100px;
-  flex-grow: 2;
+  width: 150px;
 }
