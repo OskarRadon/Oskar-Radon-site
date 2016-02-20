@@ -3,14 +3,18 @@ header, footer {
 }
 
 .container {
+  box-sizing: border-box;
   display: flex;
   width: 100vw;
-  padding: 20px;
+  padding: 5vw;
   align-content: flex-start;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  position: absolute;
+  margin-top: 250px;
 }
 
 .post {
   width: 150px;
+  margin-bottom: 50px;
 }
