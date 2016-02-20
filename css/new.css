@@ -1,6 +1,26 @@
-header, footer {
-  display: none;
+/*HEADER */
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
+
+.question {
+  width: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.logo {
+  width: 150px;
+  position: absolute;
+  top: 70px;
+  right: 50px;
+}
+
+/* BODY */
 
 .container {
   box-sizing: border-box;
