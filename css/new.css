@@ -27,16 +27,22 @@ header {
   display: flex;
   width: 100vw;
   padding: 5vw;
-  align-content: flex-start;
   flex-wrap: wrap;
   justify-content: space-around;
   position: absolute;
   margin-top: 250px;
+  align-items: center;
 }
 
 .post {
-  width: 150px;
+  width: 40vw;
+  /*flex-basis: 40vw;*/
+  flex-grow: 2;
   margin-bottom: 50px;
+}
+
+.detail {
+  width: 80px;
 }
 
 /*FOOTER*/
@@ -53,4 +59,25 @@ footer {
   width: 60px;
   bottom: 5px;
   left: 5px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 500px) {
+  .post {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    width: 600px;
+    background: tomato;
+  }
 }
