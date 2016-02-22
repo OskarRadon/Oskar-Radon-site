@@ -81,19 +81,24 @@ footer {
     /*background: tomato;*/
   }
 
-  .header-container {
+  .header-container, .footer-container {
     position: relative;
     width: 800px;
     margin: 0px auto;
     border: 1px solid green;
+  }
 
-
+  header, footer {
+    width: 100%;
+    position: fixed;
   }
 
   header {
-    width: 100%;
     top: 0px;
-    position: fixed;
+  }
+
+  footer{
+    bottom: 0px;
   }
 
   .question, .logo {
