@@ -9,7 +9,6 @@ html, body {
   position: fixed;
   z-index: 2;
   width: 100%;
-  border: 1px solid green;
 }
 
 .question {
@@ -74,7 +73,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 650px) {
   .container {
     display: block;
     width: 800px;
@@ -86,7 +85,7 @@ footer {
     position: relative;
     width: 800px;
     margin: 0px auto;
-
+    border: 1px solid green;
   }
 
   header, footer {
@@ -106,13 +105,5 @@ footer {
     position: relative;
     top: 0px;
     right: 0px;
-  }
-
-  .question {
-    margin: 10px 0px 0px 765px;
-  }
-
-  .logo {
-    margin: 8px 0px 0px 600px;
   }
 }
