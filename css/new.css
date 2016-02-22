@@ -5,24 +5,28 @@ html, body {
 
 /*HEADER */
 
-header {
+.header-container {
   position: fixed;
-  z-index: 2;
+  /*z-index: 2;*/
   width: 100%;
+  top: 0px;
+  border: 1px solid green;
+}
+
+header {
+
 }
 
 .question {
-  position: fixed;
   width: 25px;
-  top: 10px;
-  right: 10px;
+  float: right;
+  margin: 5px 5px 0 0;
 }
 
 .logo {
-  position: fixed;
   width: 150px;
-  top: 70px;
-  right: 50px;
+  float: right;
+  margin: 60px 5px 0 0;
 }
 
 /* BODY */
@@ -67,7 +71,7 @@ footer {
 
 /*MEDIA QUERIES*/
 
-@media screen and (min-width: 500px) {
+/*@media screen and (min-width: 500px) {
   .post {
     width: 200px;
   }
@@ -78,7 +82,6 @@ footer {
     display: block;
     width: 800px;
     margin: 250px auto 0;
-    /*background: tomato;*/
   }
 
   .header-container, .footer-container {
@@ -106,4 +109,13 @@ footer {
     top: 0px;
     right: 0px;
   }
-}
+
+  .question {
+     margin: 10px 0px 0px 765px;
+   }
+
+   .logo {
+     margin: 8px 0px 0px 600px;
+   }
+
+}*/
