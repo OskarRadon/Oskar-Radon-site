@@ -7,14 +7,14 @@ header {
 }
 
 .question {
-  position: absolute;
+  position: fixed;
   width: 25px;
   top: 10px;
   right: 10px;
 }
 
 .logo {
-  position: absolute;
+  position: fixed;
   width: 150px;
   top: 70px;
   right: 50px;
@@ -29,7 +29,6 @@ header {
   padding: 5vw;
   flex-wrap: wrap;
   justify-content: space-around;
-  position: absolute;
   margin: 250px auto 0;
   align-items: center;
 }
