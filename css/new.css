@@ -30,7 +30,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   position: absolute;
-  margin-top: 250px;
+  margin: 250px auto 0;
   align-items: center;
 }
 
@@ -70,14 +70,10 @@ footer {
 }
 
 @media screen and (min-width: 650px) {
-  main {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-  }
-
   .container {
+    display: block;
     width: 600px;
+    margin: 250px auto 0;
     background: tomato;
   }
 }
