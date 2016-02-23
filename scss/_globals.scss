@@ -1,3 +1,8 @@
+//TESTING
+// * {
+//   border: 1px dashed green;
+// }
+
 //HEADER
 
 .header-container {
@@ -20,7 +25,8 @@
   }
 }
 
-//BODY
+
+//MAIN
 
 main {
   box-sizing: border-box;
@@ -33,14 +39,6 @@ main {
   @media screen and (min-width: 800px) {
     width: 800px;
     margin: 250px auto 0;
-  }
-  .post {
-    width: 200px;
-    flex-grow: 2;
-    margin-bottom: 50px;
-    @media screen and (min-width: 500px) {
-      padding: 20px;
-    }
   }
 }
 
