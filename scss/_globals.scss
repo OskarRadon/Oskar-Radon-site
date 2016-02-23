@@ -40,6 +40,17 @@ main {
     width: 800px;
     margin: 250px auto 0;
   }
+  .text {
+    width: 100%;
+    margin: 0 20px 20px;
+    h1 {
+      font-size: 1rem;
+      font-weight: normal;
+    }
+    a:visited {
+      color: blue; //why isnt this working?
+    }
+  }
 }
 
 //FOOTER

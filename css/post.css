@@ -27,6 +27,14 @@ main {
     main {
       width: 800px;
       margin: 250px auto 0; } }
+  main .text {
+    width: 100%;
+    margin: 0 20px 20px; }
+    main .text h1 {
+      font-size: 1rem;
+      font-weight: normal; }
+    main .text a:visited {
+      color: blue; }
 
 .footer-container {
   position: fixed;
@@ -48,8 +56,5 @@ main {
   @media screen and (min-width: 500px) {
     .detail {
       padding: 20px; } }
-
-.text {
-  width: 100%; }
 
 /*# sourceMappingURL=post.css.map */
