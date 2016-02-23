@@ -1,0 +1,55 @@
+.header-container {
+  position: fixed;
+  width: 100%;
+  top: 0px; }
+  .header-container .question {
+    width: 25px;
+    float: right;
+    margin: 5px 5px 0 0; }
+  .header-container .logo {
+    width: 150px;
+    float: right;
+    margin: 80px 5px 0 0; }
+    @media screen and (min-width: 500px) {
+      .header-container .logo {
+        width: 180px;
+        margin: 80px 60px 0 0; } }
+
+main {
+  box-sizing: border-box;
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 250px auto 0;
+  align-items: center; }
+  @media screen and (min-width: 800px) {
+    main {
+      width: 800px;
+      margin: 250px auto 0; } }
+
+.footer-container {
+  position: fixed;
+  bottom: 0px;
+  width: 100%; }
+  .footer-container .hey {
+    width: 60px;
+    margin: 0 0 0 5px; }
+
+@media screen and (min-width: 800px) {
+  header, footer {
+    position: relative;
+    width: 800px;
+    margin: 0px auto; } }
+
+.detail {
+  width: 350px;
+  margin-bottom: 50px; }
+  @media screen and (min-width: 500px) {
+    .detail {
+      padding: 20px; } }
+
+.text {
+  width: 100%; }
+
+/*# sourceMappingURL=post.css.map */
