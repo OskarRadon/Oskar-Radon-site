@@ -1,0 +1,25 @@
+@import '_globals';
+
+//BODY
+
+main {
+  box-sizing: border-box;
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 250px auto 0;
+  align-items: center;
+  @media screen and (min-width: 800px) {
+    width: 800px;
+    margin: 250px auto 0;
+  }
+  .post {
+    width: 200px;
+    flex-grow: 2;
+    margin-bottom: 50px;
+    @media screen and (min-width: 500px) {
+      padding: 20px;
+    }
+  }
+}
