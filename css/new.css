@@ -7,14 +7,8 @@ html, body {
 
 .header-container {
   position: fixed;
-  /*z-index: 2;*/
   width: 100%;
   top: 0px;
-  border: 1px solid green;
-}
-
-header {
-
 }
 
 .question {
@@ -31,7 +25,7 @@ header {
 
 /* BODY */
 
-.container {
+main {
   box-sizing: border-box;
   display: flex;
   width: 100vw;
@@ -43,79 +37,36 @@ header {
 }
 
 .post {
-  width: 40vw;
-  /*flex-basis: 40vw;*/
+  width: 200px;
   flex-grow: 2;
   margin-bottom: 50px;
 }
 
-.detail {
-  width: 80px;
-}
-
 /*FOOTER*/
 
-footer {
+.footer-container {
   position: fixed;
   bottom: 0px;
-  z-index: 2;
   width: 100%;
 }
 
 .hey {
-  position: absolute;
   width: 60px;
-  bottom: 5px;
-  left: 5px;
+  margin: 0 0 0 5px;
 }
 
 /*MEDIA QUERIES*/
 
-/*@media screen and (min-width: 500px) {
-  .post {
-    width: 200px;
-  }
-}
+@media screen and (min-width: 800px) {
 
-@media screen and (min-width: 650px) {
-  .container {
-    display: block;
+  main {
     width: 800px;
     margin: 250px auto 0;
   }
 
-  .header-container, .footer-container {
+  header, footer {
     position: relative;
     width: 800px;
     margin: 0px auto;
-    border: 1px solid green;
   }
-
-  header, footer {
-    width: 100%;
-    position: fixed;
-  }
-
-  header {
-    top: 0px;
-  }
-
-  footer{
-    bottom: 0px;
-  }
-
-  .question, .logo {
-    position: relative;
-    top: 0px;
-    right: 0px;
-  }
-
-  .question {
-     margin: 10px 0px 0px 765px;
-   }
-
-   .logo {
-     margin: 8px 0px 0px 600px;
-   }
-
-}*/
+}
