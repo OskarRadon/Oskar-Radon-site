@@ -50,11 +50,12 @@ main {
     width: 800px;
     margin: 0px auto; } }
 
-.detail {
-  width: 350px;
+.detail-2 {
+  width: 250px;
   margin-bottom: 50px; }
-  @media screen and (min-width: 500px) {
-    .detail {
+  @media screen and (min-width: 800px) {
+    .detail-2 {
+      width: 350px;
       padding: 20px; } }
 
 /*# sourceMappingURL=post.css.map */

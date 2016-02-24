@@ -1,9 +1,10 @@
 @import '_globals';
 
-.detail {
-  width: 350px;
+.detail-2 {
+  width: 250px;
   margin-bottom: 50px;
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 800px) {
+    width: 350px;
     padding: 20px;
   }
 }
