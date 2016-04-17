@@ -1,4 +1,3 @@
 # Oskar Radon website
 
-This is my personal site where I will have a portfolio of my recent work and contact details.
-My goal is to make it simple with an intuitive, clean design, and to of course make it responsive and mobile-first.
+Old version of [this project](https://github.com/OskarRadon/Personal-Site-v2)
