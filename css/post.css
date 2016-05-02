@@ -1,19 +1,39 @@
 .header-container {
   position: fixed;
   width: 100%;
-  top: 0px; }
-  .header-container .question {
-    width: 25px;
-    float: right;
-    margin: 5px 5px 0 0; }
-  .header-container .logo {
-    width: 150px;
-    float: right;
-    margin: 80px 5px 0 0; }
-    @media screen and (min-width: 500px) {
-      .header-container .logo {
-        width: 180px;
-        margin: 80px 60px 0 0; } }
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  background: #FBFBFB; }
+  .header-container header {
+    color: #292F36;
+    margin-top: 30px; }
+    .header-container header > * {
+      margin: 0px; }
+    .header-container header h1, .header-container header h2 {
+      font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+      text-transform: uppercase;
+      font-weight: normal; }
+    .header-container header h3 {
+      font-family: 'Georgia', serif;
+      font-style: italic;
+      font-weight: normal;
+      margin: 2px 0; }
+  .header-container nav {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-bottom: 20px; }
+    .header-container nav svg {
+      fill: #292F36;
+      width: 30px;
+      height: 30px;
+      margin: 10px; }
+      .header-container nav svg:hover, .header-container nav svg:active {
+        fill: #FF4747; }
+
+body {
+  background: #FBFBFB; }
 
 main {
   box-sizing: border-box;
@@ -30,9 +50,8 @@ main {
   main .text {
     width: 100%;
     margin: 0 20px 20px; }
-    main .text h1 {
-      font-size: 1rem;
-      font-weight: normal; }
+    main .text h1, main .text .header-container header h2, .header-container header main .text h2 {
+      font-size: 1rem; }
     main .text a:visited {
       color: blue; }
 
@@ -43,12 +62,6 @@ main {
   .footer-container .hey {
     width: 60px;
     margin: 0 0 0 5px; }
-
-@media screen and (min-width: 800px) {
-  header, footer {
-    position: relative;
-    width: 800px;
-    margin: 0px auto; } }
 
 .detail-1 {
   width: 250px;

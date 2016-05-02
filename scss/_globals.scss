@@ -9,24 +9,53 @@
   position: fixed;
   width: 100%;
   top: 0px;
-  .question {
-    width: 25px;
-    float: right;
-    margin: 5px 5px 0 0;
+  display: flex;
+  justify-content: center;
+  background: #FBFBFB;
+  header {
+    color: #292F36;
+    margin-top: 30px;
+    &>* {
+      margin: 0px;
+    }
+    h1 {
+      font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+    h2 {
+      @extend h1;
+    }
+    h3 {
+      font-family: 'Georgia', serif;
+      font-style: italic;
+      font-weight: normal;
+      margin: 2px 0;
+    }
   }
-  .logo {
-    width: 150px;
-    float: right;
-    margin: 80px 5px 0 0;
-    @media screen and (min-width: 500px) {
-      width: 180px;
-      margin: 80px 60px 0 0;
+  nav {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-bottom: 20px;
+    svg {
+      fill: #292F36;
+      width: 30px;
+      height: 30px;
+      margin: 10px;
+      &:hover, &:active {
+        fill: #FF4747;
+      }
     }
   }
 }
 
 
 //MAIN
+
+body {
+  background: #FBFBFB;
+}
 
 main {
   box-sizing: border-box;
@@ -45,7 +74,6 @@ main {
     margin: 0 20px 20px;
     h1 {
       font-size: 1rem;
-      font-weight: normal;
     }
     a:visited {
       color: blue; //why isnt this working?
@@ -66,11 +94,3 @@ main {
 }
 
 // MEGA MEDIA QUERY
-
-header, footer {
-  @media screen and (min-width: 800px) {
-    position: relative;
-    width: 800px;
-    margin: 0px auto;
-  }
-}
